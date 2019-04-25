@@ -1,0 +1,36 @@
+.background-white {
+    background-color: white !important;
+}
+
+.font-color-black {
+    color: black !important;
+}
+
+.custom-img img {
+    border: none !important;
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.table img {
+    vertical-align: middle;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.django-logo {
+    margin-top: -80px !important;
+}
+
+.django-logo img {
+    width: 50%;
+}
+
+.icon-plus span {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.icon-plus {
+    margin-top: -100px !important;
+}

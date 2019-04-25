@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Django y django CMS: el tándem ideal para tu proyecto</title>
+		<meta name="description" content="Django y django CMS: el tándem ideal para tu proyecto">
+		<meta name="author" content="Manuel Jesús Barrera Pozo">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css" id="theme">
+
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- diapositiva 1 -->
+				<section data-background-image="img/django-cms-logo.svg" data-background-size="15%" data-background-position="75% 90%">
+					<h1>Django y django CMS</h1>
+					<h2>el tándem ideal para tu proyecto</h2>
+					<p><small>Por Manuel Jesús Barrera Pozo</small></p>
+				</section>
+				
+				<!-- diapositiva 2 -->
+				<section>
+					<h2>¿Qué es un CMS?</h2>
+					<ul>
+						<li>Content Management System</li>
+						<li>Crear, clasificar y publicar cualquier tipo de información en una página web</li>
+						<li>Los CMS son utilizados para que personas ‘no técnicas’ puedan actualizar el contenido de una web de manera rápida y sencilla</li>
+					</ul>
+				</section>
+				
+				<!-- diapositiva 3 -->
+				<section class="table custom-img">
+					<h2>Ejemplos de CMS</h2>
+					<tr>
+						<th>
+							<img style="max-width:15%; max-height:30%;" class="fragment fade-in" src="img/joomla-logo-2.png">
+						</th>
+						<th>
+							<img style="max-width:45%; max-height:30%;"class="fragment fade-in" src="img/wordpress-logo.png">
+						</th>
+						<th>
+							<img style="max-width:15%;" class="fragment fade-in" src="img/wix-logo.jpg">
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<img style="max-width:25%;" class="fragment fade-in" src="img/magnolia-logo.png">
+						</th>
+						<th>
+							<img style="max-width:25%; max-height:30%;"class="fragment fade-in" src="img/squarespace-logo.png">
+						</th>
+						<th>
+							<img style="max-width:30%;" class="fragment fade-in" src="img/drupal-logo.png">
+						</th>
+					</tr>
+				</section>
+
+				<!-- diapositiva 4 -->
+				<section>
+					<h2 class="fragment fade-in" data-fragment-index="2">¿Qúe le falta a Django?</h2>
+					<div class="custom-img django-logo">
+						<img src="img/django-logo-positive.png">
+					</div>
+					<div class="icon-plus fragment fade-in" data-fragment-index="3">
+						<span>&plus;</span>
+					</div>
+					<div class="custom-img fragment fade-in" data-fragment-index="3">
+						<h2>¿CMS?</h2>
+					</div>
+				</section>
+
+				<!-- diapositiva 5 -->
+				<section class="table custom-img">
+					<h2>Alguna opciones cms para Django...</h2>
+					<tr>
+						<th>
+							<img style="max-width:25%; max-height:30%;" class="fragment fade-in" src="img/django-cms-logo-2.png">
+						</th>
+						<th>
+							<img style="max-width:25%;" class="fragment fade-in" src="img/mezzanine-logo.png">
+						</th>
+						<th>
+							<img style="max-width:33%; max-height:30%;" class="fragment fade-in" src="img/wagtail-logo.png">
+						</th>
+					</tr>
+				</section>
+
+				<!-- diapositiva 6 -->
+				<section>
+					<h2>¿Por qué django CMS?</h2>
+					<ul>
+						<li>Fácil integración con Django</li>
+						<li>No lo sustituye</li>
+						<li>Es el más longevo</li>
+						<li>Buen soporte y actualizaciones</li>
+						<li>
+							<i>A CMS built for developers and content editors</i>
+						</li>
+					</ul>
+				</section>
+
+				<!-- diapositiva 7 -->
+				<section>
+					<h2>¿Quién utiliza django CMS?</h2>
+				</section>
+
+				<!-- diapositiva 8 -->
+				<section class="table custom-img">
+					<tr>
+						<th>
+							<img style="max-width:25%; max-height:30%;" class="fragment fade-in" src="img/nasa-logo.png">
+						</th>
+						<th>
+							<img style="max-width:55%; max-height:30%;"class="fragment fade-in" src="img/canonical-logo.png">
+						</th>
+						<th>
+							<img style="max-width:30%;" class="fragment fade-in" src="img/loreal-logo.jpg">
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<img style="max-width:30%;" class="fragment fade-in" src="img/universidad-cardiff.png">
+						</th>
+						<th>
+							<img style="max-width:30%;" class="fragment fade-in" src="img/salt-logo.jpg">
+						</th>
+						<th>
+							<img style="max-width:35%; max-height:30%;"class="fragment fade-in" src="img/national-geographic-logo.png">
+						</th>
+					</tr>
+				</section>
+
+				<!-- diapositiva 9 -->
+				<section>
+					<h2>Principales características</h2>
+					<ul>
+						<li>Page, Placeholders, Plugins (3P)</li>
+						<li>Multilenguaje</li>
+						<li>Control de versiones</li>
+						<li>Modelo borrador-público</li>
+						<li>Jerarquía de páginas (django-treebeard)</li>
+					</ul>
+				</section>
+
+				<!-- diapositiva 10 -->
+				<section>
+					<h3>Y más...</h3>
+					<ul>
+						<li>Apphooks (blogs, comunidad)</li>
+						<li>Toolbar</li>
+						<li>Menu</li>
+					</ul>
+				</section>
+				
+				<!-- diapositiva 11 -->
+				<section>
+					<h3>Arquitectura placeholder/plugin</h4>
+					<img src="img/placeholder-plugin.png">
+				</section>
+
+				<!-- diapositiva 12 -->
+				<section class="custom-img">
+					<h3>Arquitectura placeholder/plugin</h4>
+					<img src="img/placeholder-plugin-code.png">
+				</section>
+
+				<!-- diapositiva 13 -->
+				<section class="custom-img">
+					<h2>¡Vamos con la demo!</h2>
+					<a target="_blank" href="https://control.divio.com/demo/get-new/django-cms/">
+						<img style="max-width:35%; max-height:30%;" src="img/django-cms-logo-2.png">
+					</a>
+				</section>
+
+				<!-- diapositiva 14-->
+				<section class="custom-img">
+					<h2>Conclusiones</h2>
+					<ul>
+						<li>Múltiples formas de integración</li>
+						<li>Aprovechar al máximo las características del framework Django</li>
+						<li>Complemento perfecto para potenciar tu web</li>
+					</ul>
+				</section>
+
+				<!-- diapositiva 15 -->
+				<section>
+					<h1>Referencias</h1>
+					<ul>
+						<li>
+							<a href="https://www.django-cms.org/en/">
+								Divio AG - Django CMS web
+							</a>
+						</li>
+						<li>
+							<a href="http://docs.django-cms.org/en/latest/">
+								Divio AG - Django CMS documentation
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/watch?v=NbsRVfLCE1U">
+								Django CMS - Getting Started with django CMS
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UCafBqF_OeeGDgQVte5eCiJg">
+								Django CMS - Django CMS Channel
+							</a>
+						</li>
+						<li>
+							<a href="http://mezzanine.jupo.org/">
+								Mezzanine - Mezzanine documentation
+							</a>
+						</li>
+						<li>
+							<a href="http://docs.wagtail.io/en/v2.5/">
+								Wagtail - Wagtail documentation
+							</a>
+						</li>
+					</ul>
+				</section>
+
+				<!-- diapositiva 16 -->
+				<section>
+					<h1>Gracias a todos</h1>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				history: true,
+				controls: false,
+				progress: false,
+				overview: false,
+				dependencies: [
+					// { src: 'plugin/markdown/marked.js' },
+					// { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: 'plugin/notes/notes.js', async: true },
+					// { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
